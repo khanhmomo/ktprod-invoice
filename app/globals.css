@@ -1,4 +1,17 @@
-@import "tailwindcss";
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+
 
 :root {
   --background: #ffffff;
